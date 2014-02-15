@@ -1,0 +1,255 @@
+*, *:before, *:after  {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+
+}
+
+
+.container {
+	width: 1080px;
+	margin: 0 auto;
+
+}
+
+
+body {
+	font-family: 'Duru Sans', sans-serif;
+	font-weight: 400; 
+	font-size: 18px;
+	width:100%;
+	line-height: 24px;
+
+
+}
+
+h1, h2, h3, h4, blockquote {
+	font-family: 'Krona One', sans-serif;
+	font-weight: 400; 
+}
+
+h4, cite {
+	font-size: 18px;
+}
+
+h1 {
+	font-size: 36px;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 26px;
+}
+
+h3,q {
+	font-size: 24px;
+}
+
+
+
+footer {
+	font-size: 24px;
+	color: #fafafa;
+	background-color: #252525;
+}
+
+
+header {
+	background-image: url('../images/headerbg2.jpg');
+	width: 100%;
+	height: 721px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+	
+nav {
+	float: left;
+	width: 100%;
+	background-color: rgba(2,2,2,0.3);
+	height: 142px;
+	
+}
+
+
+/* +++++++++++++++ NAV & LOG +++++++++++++++++++++++++ */
+
+#logo {
+	background-image: url('../images/logo.png');
+	width: 252px;
+	height: 92px;
+	float: left;
+	margin: 25px 0 0 120px;	
+}
+
+ul#topnav {
+	float: right;
+	margin: 62px 97px 59px 0;	
+}
+
+ul#topnav li {
+	font-family: 'Krona One', sans-serif;
+	display: inline-block;
+}
+
+
+ul#topnav li a {
+	color: #fff;
+	display: inline;
+	padding-left: 45px;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+
+/* ++++++++++++++++ HEADER +++++++++++++++++++++++++ */
+
+.left_header_pic {
+	float: left;
+	margin: 46px 0 95px 90px;
+}
+
+
+div.right_header_details {
+	float: left;
+	color: #fff;	
+	text-align: center;
+	margin-left: 60px;
+	margin-top: 240px;
+}
+
+
+/* ++++++++++++++++ ABOUT +++++++++++++++++++++++++ */
+
+
+section#about {
+	float: left;
+	width: 100%;
+	padding: 0px 100px 0px 100px;
+}
+
+#menu h1 {
+	color: #f95971;
+}
+
+
+#about h1 {	
+	width: 100%;
+	text-align: center;
+	color:#5dcdb5;
+	margin: 100px 0 45px 100px;
+
+}
+
+.left_details {
+	float: left;
+	width: 60%;
+
+}
+
+.right_details {
+	/*background-image: url('../images/chef.jpg');*/
+	float: right;	
+	margin:0px 0px 70px 10px;	
+}
+
+blockquote {
+	padding-top: 20px;
+}
+
+
+/* +++++++++++++++++ MENU +++++++++++++++++++++++++ */
+
+section#menu {
+	width: 100%;
+	height: 475px;
+	float: left;
+	background-image: url("../images/menubg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#menu h1 {
+	width: 100%;	
+	float: left;
+	text-align: center; 
+	margin-top: 79px;
+	margin-bottom: 50px;
+}
+
+#menu h3 {
+	color: #fff;
+
+}
+
+.menuContainerTwo {
+	width: 100%;
+	float: left;
+}
+
+.mains, .sides {
+	float: left;
+	text-align: center;
+}
+
+.mains {
+	margin-right: 120px;
+}
+
+
+.drinks {
+	float: right;
+	text-align: center;
+	margin-right: 85px;
+}
+
+.mainsprices li {
+	padding-top: 15px;
+	font-size: 18px;
+}
+
+
+/* +++++++++++++++++ FOOTER +++++++++++++++++++++++++ */
+
+footer{
+	float: left;
+	width: 100%;
+	height: 278px;
+}
+
+footer p {
+font-size: 18px;
+}
+
+.findus {
+	margin-top: 43px;
+	float: left;
+	width: 50%;
+}
+
+
+.copyright {
+	float: right;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
